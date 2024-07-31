@@ -1,8 +1,15 @@
 {
   "name": "bouddha-monorepo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Bouddha Monorepo is an npm module for managing monorepos with frontend and backend projects.",
   "tags": [
+    "monorepo",
+    "frontend",
+    "backend",
+    "nestjs",
+    "react"
+  ],
+  "keywords": [
     "monorepo",
     "frontend",
     "backend",
@@ -24,7 +31,6 @@
     "typeorm": "^0.3.20",
     "typescript": "^4.3.5"
   },
-  "keywords": [],
   "license": "MIT",
   "repository": "https://github.com/andrade0/bouddha-monorepo.git"
 }
