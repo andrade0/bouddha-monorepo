@@ -2,8 +2,6 @@
   <img width="724" src="https://res.cloudinary.com/dhgmytqop/image/upload/v1722428555/Capture_d_e%CC%81cran_2024-07-31_a%CC%80_13.13.07_njudua.png" alt="Project Logo">
 </p>
 
-# Bouddha Monorepo
-
 `bouddha-monorepo` is a Node.js utility for managing shared libraries across frontend and backend projects in a monorepo setup. It automates the process of copying and processing library files, ensuring that only the necessary parts are included in each type of project (frontend or backend). This monotrepo tool is designed to simplify the management of shared codebases and reduce the risk of backend-specific code leaking into frontend projects `by copying libs ( directory should be ignored and then then in the CI bouddha-monorepo should be called ) in each package of the monorepo`. `This is made for project using React, NestJs and Typeorm`.
 
 ## Features
