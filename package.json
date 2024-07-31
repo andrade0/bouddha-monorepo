@@ -1,6 +1,6 @@
 {
   "name": "bouddha-monorepo",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "An npm module for managing monorepos with frontend and backend projects.",
   "tags": [
     "monorepo",

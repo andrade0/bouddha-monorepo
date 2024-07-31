@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://res.cloudinary.com/dhgmytqop/image/upload/v1722428555/Capture_d_e%CC%81cran_2024-07-31_a%CC%80_13.13.07_njudua.png" alt="Project Logo">
+  <img width="724" src="https://res.cloudinary.com/dhgmytqop/image/upload/v1722428555/Capture_d_e%CC%81cran_2024-07-31_a%CC%80_13.13.07_njudua.png" alt="Project Logo">
 </p>
 
 # Bouddha Monorepo
