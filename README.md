@@ -64,13 +64,14 @@ Create a `.bouddha-monorepo` file in the root of your project to configure the m
   "libsPath": "./libs",
   "packagesPath": "./apps",
   "packages": [
-    { "name": "digital-pipe-core-service", "libsPath": "src/libs", "type": "backend" },
-    { "name": "digital-pipe-react-web-front", "libsPath": "src/app/libs", "type": "frontend" }
+    { "name": "core-service", "libsPath": "src/libs", "type": "backend" },
+    { "name": "react-web-front", "libsPath": "src/app/libs", "type": "frontend" }
   ],
   "libs": [
     { "name": "api", "type": "frontend" },
     { "name": "helpers", "type": "agnostic" },
-    { "name": "helpers-backend", "type": "backend" }
+    { "name": "helpers-backend", "type": "backend" },
+    { "name": "helpers-frontend", "type": "frontend" }
   ]
 }
 ```
@@ -86,6 +87,7 @@ npx bouddha-monorepo
 This command will read the configuration, copy the libraries, and process the files according to the project type.
 
 ### Watching for Changes
+
 
 By default, the tool watches the `libs` directory for changes and reprocesses the projects automatically. To disable watching, use the `exec` argument:
 
